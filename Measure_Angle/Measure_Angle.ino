@@ -2,7 +2,7 @@
 
 #include <Wire.h>
 #include<math.h>
-long accelX, accelY, accelZ;  //Collects the raw data from MPU
+long accelX, accelY, accelZ;     //Collects the raw data from MPU
 float gForceX, gForceY, gForceZ; //The raw data is processes to multiples of 'g'
 
 long gyroX, gyroY, gyroZ;
